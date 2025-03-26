@@ -409,8 +409,8 @@ Resources:
     Type: AWS::ECS::TaskDefinition
     Properties:
       Family: !Sub '${EnvironmentName}-task'
-      Cpu: '256'
-      Memory: '512'
+      Cpu: '2048'
+      Memory: '4096'
       NetworkMode: awsvpc
       RequiresCompatibilities:
         - FARGATE
