@@ -38,7 +38,7 @@ Parameters:
     Type: String
     Default: 'public.ecr.aws/p8o0y7b7/week5/lab:image_uploader_backend'
 
-  # Add deployment toggle parameter
+  # Add deployment toggle paramete
   DeployService:
     Description: Whether to deploy the ECS service (set to false for initial infrastructure)
     Type: String
