@@ -1,1 +1,11 @@
-template-file-path: ./formation.yaml
+template-file-path: formation.yaml
+parameters:
+  PrivateSubnet1CIDR: 10.0.3.0/24
+  PublicSubnet2CIDR: 10.0.2.0/24
+  VpcCIDR: 10.0.0.0/16
+  EnvironmentName: weekfiveproject
+  PrivateSubnet2CIDR: 10.0.4.0/24
+  InitialContainerImage: public.ecr.aws/p8o0y7b7/week5/lab:image_uploader_backend
+  DeployService: 'false'
+  PublicSubnet1CIDR: 10.0.1.0/24
+tags: {}
